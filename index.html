@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Cleaners Demo</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <header id="home">
+        <div class="menu">
+            <span class="bar"></span>
+        </div>
+
+        <nav class="nav">
+            <a href="index.html" id="logo">Express Cleaners</a>
+            <div class="overlay">
+                <ul>
+                    <li><a href="index.html">Home</a> 
+                    <li><a href="#pickup">Place Your Order</a></li>
+                    <li><a href="#Locations">Locations</a></li>
+                    <li><a href="pickup.html">Sign up</a></li>
+                    <li><a href="schedulepickup.html">Sign In</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="main-text">
+            <h1>Welcome</h1>
+            <h2>Express Cleaners</h2>
+            <a href="#" class="btn main-btn">Explore</a>
+        </div>
+    </header>
+
+    <section class="our-story" id="story">
+        <div class="container">
+            <div class="center add-padding-right">
+                <h1 class="custom-font">Be Connected</h1>
+                <h2>Ordering from your favorite dry cleaners made easy!</h2>
+                <a href="#" class="btn btn-info">Learn More</a>
+            </div>   
+            <div class="store add-flex"></div>
+        </div>
+    </section>
+
+    <section class="find-locations between-sec" id="Locations">
+        
+            <h1 class="custom-font">Find Locations Near You</h1>
+            <a href="#" class="btn btn-info">Search Locations</a>
+        
+    </section>
+
+    <section class="booking-order" id="pickup">
+        <div class="container">
+            <div class="center second">
+            
+                <h1 class="custom-font">Place Your Order</h1>
+                <a href="schedulepickup.html" class="btn btn-info">Schedule Your Pick Up</a>
+            </div>
+                <div class="image add-flex add-padding-right first">
+                    <img src="images/order.jpg" alt="Booking your order">
+                </div>
+        </div>       
+        </section>
+
+    <section class="Pick-up between-sec" id="Pick-up">
+            <div class="container">
+                <div class="center">
+                <h1 class="custom-font">Pick-Up</h1>
+                <a href="#" class="btn btn-info">Schedule Your Pick Up</a>
+                </div>
+            
+    </section>
+
+    <section class="delivered-order" id="delivery">
+            <div class="container">
+                <div class="center">
+                    <h2 class="custom-font">Delivered</h2>
+                </div>  
+                    
+        </section>
+
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <div class="center">
+                <h1 class="custom-font">Contact</h1>
+                <h2 class="custom-font-secandary">Us</h2>
+            </div>
+
+        <div class="form-container add-flex add-padding-right">
+            <form action="">
+                <input type="text" class="input" placeholder="Full Name" name="name" required>
+                <input type="text" class="input" placeholder="Email" name="email" required>
+                <textarea name="message" class="text-area" placeholder="Quesions?" required></textarea>
+                <input type="submit" class="input btn btn-submit">
+            </form>
+        </div>
+    </section>
+
+    <section>
+        
+        <div class="appstore"><a href="https://www.apple.com/ios/app-store/">Apple store</a></div>
+        <div class="googleplay"><a href="https://play.google.com/store">Google play store</a></div>
+    </section>
+    
+	
+	<footer> 2020 Express Cleaners Demo All rights reserved</footer>
+    
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <div id="root"></div>
+</body>
+</html>

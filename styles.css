@@ -1,0 +1,36 @@
+
+@media screen and (max-width:729px){
+	.login-box{
+		display: inline-block;
+	}
+	.bttn{
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width:715px) {
+	header{
+		height: 250px;
+		background-position: 0 -30px;
+	}
+	header .mobile{
+		display: inline-block;
+	}
+
+	header .desktop{
+		display: none;
+	}
+}
+@media screen and (max-width:540px) {
+	header{
+		height: 300px;
+		background-position: 0 0px;
+	}
+	header .mobile{
+		display: inline-block;
+	}
+
+	header .desktop{
+		display: none;
+	}
+}
