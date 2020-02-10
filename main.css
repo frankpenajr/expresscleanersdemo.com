@@ -288,6 +288,12 @@ header {
 }
 
 /* section - booking order */
+.stored {
+  width: 100%;
+  min-height: 30rem;
+  background: url("images/order.jpg") center no-repeat;
+  background-size: cover;
+}
 
 /* section pick-up */
 .Pick-up {
